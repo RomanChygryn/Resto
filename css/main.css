@@ -5840,33 +5840,39 @@ button.close {
   color: #ffffff;
   font-size: 50px;
   line-height: 10px; }
+  .mainHeader .mainTitle {
+    height: 40px;
+    text-align: center;
+    width: 1020px; }
+    .mainHeader .mainTitle h1 {
+      font-size: 100px;
+      font-family: "WC Mano Negra Bta"; }
+    .mainHeader .mainTitle span {
+      display: inline-block;
+      position: relative;
+      font-size: 16px;
+      font-family: "Aleo"; }
+    .mainHeader .mainTitle span:before,
+    .mainHeader .mainTitle span:after {
+      content: "";
+      position: absolute;
+      height: 8px;
+      border-bottom: 1px solid #ffffff;
+      top: 0;
+      width: 40px; }
+    .mainHeader .mainTitle span:before {
+      right: 100%;
+      margin-right: 27px; }
+    .mainHeader .mainTitle span:after {
+      left: 100%;
+      margin-left: 27px; }
 
-.mainTitle {
-  height: 40px;
-  text-align: center;
-  width: 1020px; }
+.redLine {
+  height: 4px;
+  background-color: #f34949; }
 
-.mainTitle span:before,
-.mainTitle span:after {
-  content: "";
-  position: absolute;
-  height: 40px;
-  border-bottom: 3px solid #000;
-  top: 0;
-  width: 30%; }
-
-.mainTitle span {
-  text-transform: uppercase;
-  display: inline-block;
-  position: relative;
-  font-size: 4rem; }
-
-.mainTitle span:before {
-  right: 100%;
-  margin-right: 15px; }
-
-.mainTitle span:after {
-  left: 100%;
-  margin-left: 15px; }
+.theMenu {
+  background-color: #ffffff;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
