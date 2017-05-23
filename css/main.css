@@ -5872,7 +5872,31 @@ button.close {
   background-color: #f34949; }
 
 .theMenu {
-  background-color: #ffffff;
   text-align: center; }
+
+.menu {
+  font-family: "Aleo";
+  line-height: 11px; }
+  .menu .menu-item {
+    width: 50%;
+    display: inline-block; }
+    .menu .menu-item h4 {
+      margin-bottom: 0;
+      font-weight: 700;
+      color: #3b3b3b; }
+    .menu .menu-item p {
+      color: #bbbbbb; }
+  .menu hr {
+    margin: 20px 42px 20px 0;
+    border: 0;
+    border-top: 1px solid #3b3b3b;
+    display: inline-block;
+    width: 30%; }
+  .menu .price {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px; }
+    .menu .price h4 {
+      margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

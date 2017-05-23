@@ -1,4 +1,35 @@
 .theMenu {
-	background-color: $white;
 	text-align: center;
+}
+.menu {
+	font-family: "Aleo";
+	line-height: 11px;
+	.menu-item {
+		width: 50%;
+		display: inline-block;
+		h4 {
+			margin-bottom: 0;
+			font-weight: 700;
+			color: $black; 
+		}
+		p {
+			color: $darkGrey;
+		}
+		
+	}
+	hr {
+		margin: 20px 42px 20px 0;
+    	border: 0;
+    	border-top: 1px solid $black;
+		display: inline-block;
+    	width: 30%;
+		}
+	.price {
+		display: inline-block;
+		position: absolute;
+		margin-top: 10px;
+		h4{
+			margin: 0;
+		}
+	}
 }
