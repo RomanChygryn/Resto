@@ -5,6 +5,6 @@
 
 @mixin flex-center($df,$ta,$jc) {
 	display: $df;
-	text-align: $ta;
+	align-items: $ta;
 	justify-content: $jc;
-}
+}	

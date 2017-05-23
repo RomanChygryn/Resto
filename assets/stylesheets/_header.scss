@@ -1,6 +1,41 @@
-.header {
+
+.mainHeader {
 	@include wh(100%,570px);
+	@include flex-center(flex,center,center);
 	background: $white url(..//img/header.jpg) no-repeat center/cover;
 	text-align: center;
-	
+	color: $white;
+	font-size: 50px;
+	line-height: 10px;
+}
+.mainTitle {
+	height: 40px;
+	text-align: center;
+	width: 1020px;
+}
+
+.mainTitle span:before,
+.mainTitle span:after {
+  	content: "";
+  	position: absolute;
+  	height: 40px;
+  	border-bottom: 3px solid #000;
+  	top: 0;
+  	width: 30%;
+  }
+
+.mainTitle span {
+	text-transform: uppercase;
+	display: inline-block;
+  	position: relative; 
+  	font-size: 4rem;
+}
+
+.mainTitle span:before {
+  	right: 100%;
+  	margin-right: 15px;
+}
+.mainTitle span:after {
+  	left: 100%;
+  	margin-left: 15px;
 }
