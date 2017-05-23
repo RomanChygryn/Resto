@@ -1,9 +1,6 @@
 .header {
 	@include wh(100%,570px);
-	background-image: url(..//img/header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background: $white url(..//img/header.jpg) no-repeat center/cover;
 	text-align: center;
 	
 }
