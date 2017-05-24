@@ -1,28 +1,40 @@
+.mainMenu {
+	.container{
+		margin-left: 200px;
+		padding: 0;
+	}
+}
 .theMenu {
 	text-align: center;
 }
 .menu {
 	font-family: "Aleo";
-	line-height: 11px;
+	margin-top: 80px;
+	li {
+		margin-bottom: 63px;
+	
 	.menu-item {
 		width: 50%;
 		display: inline-block;
 		h4 {
-			margin-bottom: 0;
-			font-weight: 700;
+			margin-bottom: 8px;
+			font-weight: 600;
 			color: $black; 
+			font-size: 16px;
 		}
 		p {
 			color: $darkGrey;
+			font-style: italic;
+			font-size: 12px;
 		}
 		
 	}
 	hr {
 		margin: 20px 42px 20px 0;
     	border: 0;
-    	border-top: 1px solid $black;
+    	border-top: 1px solid $lightgrey;
 		display: inline-block;
-    	width: 30%;
+    	width: 28%;
 		}
 	.price {
 		display: inline-block;
@@ -30,6 +42,7 @@
 		margin-top: 10px;
 		h4{
 			margin: 0;
+			}
 		}
 	}
 }

@@ -5871,32 +5871,45 @@ button.close {
   height: 4px;
   background-color: #f34949; }
 
+.mainMenu .container {
+  margin-left: 200px;
+  padding: 0; }
+
 .theMenu {
   text-align: center; }
 
 .menu {
   font-family: "Aleo";
-  line-height: 11px; }
-  .menu .menu-item {
-    width: 50%;
-    display: inline-block; }
-    .menu .menu-item h4 {
-      margin-bottom: 0;
-      font-weight: 700;
-      color: #3b3b3b; }
-    .menu .menu-item p {
-      color: #bbbbbb; }
-  .menu hr {
-    margin: 20px 42px 20px 0;
-    border: 0;
-    border-top: 1px solid #3b3b3b;
-    display: inline-block;
-    width: 30%; }
-  .menu .price {
-    display: inline-block;
-    position: absolute;
-    margin-top: 10px; }
-    .menu .price h4 {
-      margin: 0; }
+  margin-top: 80px; }
+  .menu li {
+    margin-bottom: 63px; }
+    .menu li .menu-item {
+      width: 50%;
+      display: inline-block; }
+      .menu li .menu-item h4 {
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #3b3b3b;
+        font-size: 16px; }
+      .menu li .menu-item p {
+        color: #b5b5b5;
+        font-style: italic;
+        font-size: 12px; }
+    .menu li hr {
+      margin: 20px 42px 20px 0;
+      border: 0;
+      border-top: 1px solid #e2e0e0;
+      display: inline-block;
+      width: 28%; }
+    .menu li .price {
+      display: inline-block;
+      position: absolute;
+      margin-top: 10px; }
+      .menu li .price h4 {
+        margin: 0; }
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
