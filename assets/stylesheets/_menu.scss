@@ -2,6 +2,17 @@
 	.container{
 		margin-left: 200px;
 		padding: 0;
+		button {
+			color: $grey;
+			border-radius: 0;
+			span {
+				font-family: "Aleo";
+				font-size: 14px;
+			}
+			.line {
+				margin: auto 12px;
+			}
+		}
 	}
 }
 .theMenu {
@@ -47,3 +58,4 @@
 		}
 	}
 }
+
