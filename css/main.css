@@ -5884,7 +5884,6 @@ button.close {
   .menu li {
     margin-bottom: 63px; }
     .menu li .menu-item {
-      width: 50%;
       display: inline-block; }
       .menu li .menu-item h4 {
         margin-bottom: 8px;
@@ -5896,14 +5895,13 @@ button.close {
         font-style: italic;
         font-size: 12px; }
     .menu li hr {
-      margin: 20px 42px 20px 0;
+      margin: 20px 0 0 0;
       border: 0;
       border-top: 1px solid #e2e0e0;
       display: inline-block;
-      width: 28%; }
+      width: 30%; }
     .menu li .price {
       display: inline-block;
-      position: absolute;
       margin-top: 10px; }
       .menu li .price h4 {
         margin: 0; }
