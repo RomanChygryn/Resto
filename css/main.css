@@ -8196,7 +8196,7 @@ button.close {
   background-color: #f34949; }
 
 .mainMenu .container {
-  margin-left: 200px;
+  margin-left: 206px;
   padding: 0; }
   .mainMenu .container button {
     color: #d7d5d5;
@@ -8232,13 +8232,18 @@ button.close {
       border: 0;
       border-top: 1px solid #e2e0e0;
       display: inline-block;
-      width: 28%; }
+      width: 26%; }
     .menu li .price {
       display: inline-block;
       position: absolute;
       margin-top: 10px; }
       .menu li .price h4 {
         margin: 0; }
+
+.featuredDish .imgSection div {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 h1, h2, h3, h4, p {
   margin: 0;
