@@ -8240,11 +8240,6 @@ button.close {
       .menu li .price h4 {
         margin: 0; }
 
-.featuredDish .imgSection div {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0; }
