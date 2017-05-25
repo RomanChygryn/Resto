@@ -16,3 +16,16 @@
 //		}
 //	}
 //}
+
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(1) > div > div > ul >li {
+	display: inline-block;
+}
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(2) > div > div > ul >li {
+	display: inline-block;
+}
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(3) > div > div > ul >li {
+	display: inline-block;
+}
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(4) > div > div > ul >li {
+	display: inline-block;
+}

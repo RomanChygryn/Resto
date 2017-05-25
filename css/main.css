@@ -8240,6 +8240,18 @@ button.close {
       .menu li .price h4 {
         margin: 0; }
 
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(1) > div > div > ul > li {
+  display: inline-block; }
+
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(2) > div > div > ul > li {
+  display: inline-block; }
+
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(3) > div > div > ul > li {
+  display: inline-block; }
+
+body > div.container-fluid.featuredDish > div > div > div > div:nth-child(4) > div > div > ul > li {
+  display: inline-block; }
+
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0; }
