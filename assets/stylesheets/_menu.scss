@@ -15,6 +15,7 @@
 	
 	.menu-item {
 		display: inline-block;
+		width: 50%;
 		h4 {
 			margin-bottom: 8px;
 			font-weight: 600;
@@ -29,15 +30,16 @@
 		
 	}
 	hr {
-		margin: 20px 0 0 0;
+		margin: 20px 42px 20px 0;
     	border: 0;
     	border-top: 1px solid $lightgrey;
 		display: inline-block;
-    	width: 30%;
+    	width: 28%;
 	
 		}
 	.price {
 		display: inline-block;
+		position: absolute;
 		margin-top: 10px;
 		h4{
 			margin: 0;
