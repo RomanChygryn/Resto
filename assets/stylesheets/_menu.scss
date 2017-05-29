@@ -8,6 +8,7 @@
 .mainMenu {
 	.container{
 		div.btn {
+			@include flex-center(flex,center,center); 
 			padding: 0;
 		}
 		button {
@@ -91,7 +92,7 @@
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
 .mainMenu {
 	.rightSide {
 		ul{
@@ -106,7 +107,30 @@
 		}
 		hr {
     		right: 133px;
+			}
 		}
 	}
 }
+
+@media (max-width: 556px) {
+	.mainMenu{
+		.menu {
+			hr{
+				display: none;
+			}
+		}
+	}
+}
+@media (max-width: 556px) {
+	.container-fluid.featuredDish{
+		div{
+			div {
+				div.row.featuredHeader{
+					hr{
+						display: none;
+					}
+				}
+			}
+		}
+	} 
 }
