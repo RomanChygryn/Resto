@@ -8317,6 +8317,19 @@ button.close {
   color: #ffffff;
   font-family: "Aleo";
   font-size: 16px; }
+  .footer ul {
+    margin-bottom: 0; }
+    .footer ul a {
+      text-decoration: none;
+      color: #ffffff;
+      line-height: 30px; }
+  .footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 200; }
+  .footer p {
+    font-weight: 200;
+    line-height: 30px; }
 
 h1, h2, h3, h4, p {
   margin: 0;
