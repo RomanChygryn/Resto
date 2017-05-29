@@ -8288,6 +8288,24 @@ button.close {
         .featuredDish .thumbnail .caption .rate .yellow i {
           color: #f1df1a; }
 
+.gallery {
+  margin-top: 200px; }
+  .gallery .galleryHeader p {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Aleo";
+    font-size: 20px;
+    padding-left: 30px; }
+  .gallery .galleryHeader hr {
+    width: 17%;
+    display: inline-block;
+    margin: 0 0 7px 19px; }
+  .gallery .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px; }
+
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0; }
