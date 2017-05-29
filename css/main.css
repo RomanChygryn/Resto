@@ -8243,24 +8243,50 @@ button.close {
       .menu li .price h4 {
         margin: 0; }
 
-.featuredDish .thumbnail {
-  border: none;
-  margin-top: 80px; }
-  .featuredDish .thumbnail img {
-    margin-bottom: 30px; }
-  .featuredDish .thumbnail .caption {
-    padding: 11px; }
-    .featuredDish .thumbnail .caption h4, .featuredDish .thumbnail .caption p {
-      display: inline-block;
-      font-size: 16px; }
-    .featuredDish .thumbnail .caption p {
-      position: absolute;
-      right: 30px;
-      top: 242px; }
-    .featuredDish .thumbnail .caption .rate {
-      margin-top: 10px; }
-      .featuredDish .thumbnail .caption .rate li {
-        display: inline-block; }
+.featuredDish {
+  margin-top: 200px; }
+  .featuredDish .featuredHeader p {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Aleo";
+    font-size: 20px;
+    padding-left: 30px; }
+  .featuredDish .featuredHeader hr {
+    width: 17%;
+    display: inline-block;
+    margin: 0 0 7px 19px; }
+  .featuredDish .featuredHeader ol {
+    display: inline-block;
+    margin: auto auto 0 53%; }
+    .featuredDish .featuredHeader ol li {
+      display: inherit; }
+      .featuredDish .featuredHeader ol li i {
+        color: #e2e0e0;
+        letter-spacing: 6px; }
+      .featuredDish .featuredHeader ol li i.active {
+        color: #b5b5b5; }
+  .featuredDish .thumbnail {
+    border: none;
+    margin-top: 80px; }
+    .featuredDish .thumbnail img {
+      margin-bottom: 30px; }
+    .featuredDish .thumbnail .caption {
+      padding: 11px; }
+      .featuredDish .thumbnail .caption h4, .featuredDish .thumbnail .caption p {
+        display: inline-block;
+        font-size: 16px; }
+      .featuredDish .thumbnail .caption p {
+        position: absolute;
+        right: 30px;
+        top: 322px; }
+      .featuredDish .thumbnail .caption .rate {
+        margin-top: 10px; }
+        .featuredDish .thumbnail .caption .rate li {
+          display: inline-block; }
+          .featuredDish .thumbnail .caption .rate li i {
+            color: #e2e0e0; }
+        .featuredDish .thumbnail .caption .rate .yellow i {
+          color: #f1df1a; }
 
 h1, h2, h3, h4, p {
   margin: 0;

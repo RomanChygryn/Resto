@@ -18,6 +18,35 @@
 //}
 
 .featuredDish {
+	margin-top: 200px;
+	.featuredHeader{
+		p{
+			text-transform: uppercase;
+			display: inline-block;
+			font-family: "Aleo";
+			font-size: 20px;
+			padding-left: 30px;
+		}
+		hr{
+			width: 17%;
+			display: inline-block;
+			margin: 0 0 7px 19px;
+		}
+		ol {
+			display: inline-block;
+			margin: auto auto 0 53%;
+			li{
+				display: inherit;
+				i{
+					color: $lightgrey;
+					letter-spacing: 6px;
+				}
+				i.active{
+					color: $darkGrey;
+				}
+			}
+		}
+	}
 	.thumbnail {
 		border: none;
 		margin-top: 80px;
@@ -33,12 +62,20 @@
 			p {
 				position: absolute;
     			right: 30px;
-    			top: 242px;
+    			top: 322px;
 			}
 			.rate {
 				margin-top: 10px;
 				li {
 					display: inline-block;
+					i {
+						color: $lightgrey;
+					}
+				}
+				.yellow {
+					i {
+						color: $yellow;
+					}
 				}
 			}
 		}
