@@ -8198,6 +8198,8 @@ button.close {
 .mainMenu .container {
   margin-left: 206px;
   padding: 0; }
+  .mainMenu .container div.btn {
+    padding: 0; }
   .mainMenu .container button {
     color: #d7d5d5;
     border-radius: 0; }
@@ -8208,7 +8210,8 @@ button.close {
       margin: auto 12px; }
 
 .theMenu {
-  text-align: center; }
+  text-align: center;
+  padding: 0; }
 
 .menu {
   font-family: "Aleo";
@@ -8240,17 +8243,24 @@ button.close {
       .menu li .price h4 {
         margin: 0; }
 
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(1) > div > div > ul > li {
-  display: inline-block; }
-
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(2) > div > div > ul > li {
-  display: inline-block; }
-
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(3) > div > div > ul > li {
-  display: inline-block; }
-
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(4) > div > div > ul > li {
-  display: inline-block; }
+.featuredDish .thumbnail {
+  border: none;
+  margin-top: 80px; }
+  .featuredDish .thumbnail img {
+    margin-bottom: 30px; }
+  .featuredDish .thumbnail .caption {
+    padding: 11px; }
+    .featuredDish .thumbnail .caption h4, .featuredDish .thumbnail .caption p {
+      display: inline-block;
+      font-size: 16px; }
+    .featuredDish .thumbnail .caption p {
+      position: absolute;
+      right: 30px;
+      top: 242px; }
+    .featuredDish .thumbnail .caption .rate {
+      margin-top: 10px; }
+      .featuredDish .thumbnail .caption .rate li {
+        display: inline-block; }
 
 h1, h2, h3, h4, p {
   margin: 0;

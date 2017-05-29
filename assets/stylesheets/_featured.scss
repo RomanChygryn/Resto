@@ -17,15 +17,30 @@
 //	}
 //}
 
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(1) > div > div > ul >li {
-	display: inline-block;
-}
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(2) > div > div > ul >li {
-	display: inline-block;
-}
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(3) > div > div > ul >li {
-	display: inline-block;
-}
-body > div.container-fluid.featuredDish > div > div > div > div:nth-child(4) > div > div > ul >li {
-	display: inline-block;
+.featuredDish {
+	.thumbnail {
+		border: none;
+		margin-top: 80px;
+		img{
+			margin-bottom: 30px;
+		}
+		.caption {
+			padding: 11px;
+			h4,p {
+				display: inline-block;
+				font-size: 16px;
+			}
+			p {
+				position: absolute;
+    			right: 30px;
+    			top: 242px;
+			}
+			.rate {
+				margin-top: 10px;
+				li {
+					display: inline-block;
+				}
+			}
+		}
+	}
 }
