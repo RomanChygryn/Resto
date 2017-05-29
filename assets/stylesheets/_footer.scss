@@ -1,0 +1,13 @@
+.footer {
+	margin-top: 200px;
+	@include wh(100%,317px);
+	@include flex-center(flex,center,center);
+	background-color: $black;
+	color: $white;
+	font-family: "Aleo";
+	font-size: 16px;
+	adress {
+		
+	}
+}
+	
