@@ -8191,6 +8191,13 @@ button.close {
       left: 100%;
       margin-left: 27px; }
 
+@media (max-width: 1006px) {
+  .mainHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+    .mainHeader .mainTitle {
+      margin-top: 15%; } }
 .redLine {
   height: 4px;
   background-color: #f34949; }
@@ -8256,6 +8263,17 @@ button.close {
       .menu li .price h4 {
         margin: 0; }
 
+@media (max-width: 992px) {
+  .mainMenu .rightSide ul {
+    margin-left: 0;
+    margin-top: 0; }
+  .mainMenu .rightSide .price {
+    position: relative;
+    right: 45px;
+    top: 2px;
+    float: right; }
+  .mainMenu .rightSide hr {
+    right: 133px; } }
 .featuredDish {
   margin-top: 200px; }
   .featuredDish .featuredHeader p {

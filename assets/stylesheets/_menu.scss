@@ -1,3 +1,10 @@
+//@media screen and (max-width: 570px) {
+//	.mainHeader {
+//		@include flex-center(flex,flex-start,center);
+//	}
+//}
+
+
 .mainMenu {
 	.container{
 		div.btn {
@@ -84,3 +91,22 @@
 	}
 }
 
+@media (max-width: 992px) {
+.mainMenu {
+	.rightSide {
+		ul{
+			margin-left: 0;
+			margin-top: 0;
+	}
+		.price {
+			position: relative;
+			right: 45px;
+			top: 2px;
+			float: right;
+		}
+		hr {
+    		right: 133px;
+		}
+	}
+}
+}
