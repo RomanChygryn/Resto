@@ -8195,19 +8195,32 @@ button.close {
   height: 4px;
   background-color: #f34949; }
 
-.mainMenu .container {
-  margin-left: 206px;
+.mainMenu .container div.btn {
   padding: 0; }
-  .mainMenu .container div.btn {
-    padding: 0; }
-  .mainMenu .container button {
-    color: #d7d5d5;
-    border-radius: 0; }
-    .mainMenu .container button span {
-      font-family: "Aleo";
-      font-size: 14px; }
-    .mainMenu .container button .line {
-      margin: auto 12px; }
+.mainMenu .container button {
+  color: #d7d5d5;
+  border-radius: 0; }
+  .mainMenu .container button span {
+    font-family: "Aleo";
+    font-size: 14px; }
+  .mainMenu .container button .line {
+    margin: auto 12px; }
+.mainMenu .leftSide .price {
+  position: relative;
+  right: 45px;
+  top: 2px;
+  float: right; }
+.mainMenu .leftSide hr {
+  right: 133px; }
+.mainMenu .rightSide ul {
+  margin-left: 43px; }
+.mainMenu .rightSide .price {
+  position: relative;
+  right: 14px;
+  top: 4px;
+  float: right; }
+.mainMenu .rightSide hr {
+  right: 103px; }
 
 .theMenu {
   text-align: center;
@@ -8220,7 +8233,7 @@ button.close {
     margin-bottom: 63px; }
     .menu li .menu-item {
       display: inline-block;
-      width: 50%; }
+      margin-right: 23px; }
       .menu li .menu-item h4 {
         margin-bottom: 8px;
         font-weight: 600;
@@ -8231,15 +8244,15 @@ button.close {
         font-style: italic;
         font-size: 12px; }
     .menu li hr {
-      margin: 20px 42px 20px 0;
       border: 0;
       border-top: 1px solid #e2e0e0;
       display: inline-block;
-      width: 26%; }
-    .menu li .price {
-      display: inline-block;
+      width: 33%;
       position: absolute;
-      margin-top: 10px; }
+      right: 112px;
+      margin-top: 11px; }
+    .menu li .price {
+      display: inline-block; }
       .menu li .price h4 {
         margin: 0; }
 

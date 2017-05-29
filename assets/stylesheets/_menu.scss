@@ -1,7 +1,5 @@
 .mainMenu {
 	.container{
-		margin-left: 206px;
-		padding: 0;
 		div.btn {
 			padding: 0;
 		}
@@ -17,6 +15,30 @@
 			}
 		}
 	}
+	.leftSide {
+		.price {
+			position: relative;
+			right: 45px;
+			top: 2px;
+			float: right;
+		}
+		hr {
+    		right: 133px;
+		}
+	}
+	.rightSide {
+		ul{
+			margin-left: 43px;		}
+		.price {
+			position: relative;
+			right: 14px;
+			top: 4px;
+			float: right;
+		}
+		hr {
+    		right: 103px;
+		}
+	}
 }
 .theMenu {
 	text-align: center;
@@ -30,7 +52,7 @@
 	
 	.menu-item {
 		display: inline-block;
-		width: 50%;
+		margin-right: 23px;
 		h4 {
 			margin-bottom: 8px;
 			font-weight: 600;
@@ -45,17 +67,16 @@
 		
 	}
 	hr {
-		margin: 20px 42px 20px 0;
     	border: 0;
     	border-top: 1px solid $lightgrey;
 		display: inline-block;
-    	width: 26%;
-	
-		}
+    	width: 33%;
+    	position: absolute;
+    	right: 112px;
+		margin-top: 11px;
+	}
 	.price {
 		display: inline-block;
-		position: absolute;
-		margin-top: 10px;
 		h4{
 			margin: 0;
 			}
