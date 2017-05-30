@@ -39,6 +39,7 @@
 			h4,p {
 				display: inline-block;
 				font-size: 16px;
+				font-family: "Aleo";
 			}
 			p {
 				position: absolute;
@@ -57,6 +58,72 @@
 					i {
 						color: $yellow;
 					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 590px) {
+	.container-fluid.featuredDish{
+		div{
+			div {
+				div.row.featuredHeader{
+					hr{
+						display: none;
+					}
+				}
+			}
+		}
+	} 
+}
+
+@media (max-width: 1208px) {
+	.featuredDish {
+		.featuredHeader{
+			ol {
+				display: inline-block;
+				margin: auto auto 0 26%;
+			}
+		}
+	}
+}
+
+@media (max-width: 420px) {
+	.featuredDish {
+		.featuredHeader{
+			ol {
+				display:inline-block;
+				margin: auto auto 0 30%;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.featuredDish {
+		margin-top: 50px;
+		.thumbnail{
+			margin: 0;
+			img {
+	
+			}
+			.caption {
+				text-align: center;
+				h4,p {
+					display: block;
+					position:inherit;
+				}
+				
+			}
+		}
+	}
+}
+@media (max-width: 320px) {
+	.featuredDish {
+		.thumbnail{
+			.caption {
+				h4,p {
+					font-size: 12px;
 				}
 			}
 		}
