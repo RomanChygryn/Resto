@@ -8130,6 +8130,9 @@ button.close {
   overflow: visible;
   clip: auto; }
 
+.navbar-header button {
+  margin-top: 37px; }
+
 .navbar-brand {
   padding-top: 41px; }
 
@@ -8145,13 +8148,10 @@ button.close {
     .navbar .container .navbar-nav {
       float: right; }
       .navbar .container .navbar-nav li {
-        margin: 45px 50px 47px 0; }
+        margin: 45px 0 47px 50px; }
         .navbar .container .navbar-nav li a {
           padding: 0;
           font-size: 14px; }
-
-#bs-example-navbar-collapse-1 > ul > li:nth-child(5) {
-  margin-right: 0; }
 
 .mainHeader {
   width: 100%;

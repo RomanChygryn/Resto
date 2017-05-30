@@ -1,3 +1,8 @@
+.navbar-header {
+	button{
+		margin-top: 37px;	
+	}
+}
 .navbar-brand {
 	padding-top: 41px;
 }
@@ -6,23 +11,18 @@
 	background-color: $white;
 	border: none;
 	margin: 0;
-		.container {
-			padding-left: 30px;
-			padding-right: 6px;					
-				.navbar-nav{
-					float: right;
-							li{
-								margin: 45px 50px 47px 0;
-									a{
-										padding: 0;
-										font-size: 14px;
+	.container {
+		padding-left: 30px;
+		padding-right: 6px;					
+		.navbar-nav{
+			float: right;
+			li{
+				margin: 45px 0 47px 50px;
+				a{
+					padding: 0;
+					font-size: 14px;
 				}
 			}
 		}	
 	}
 }
-
-#bs-example-navbar-collapse-1 > ul > li:nth-child(5) {
-	margin-right: 0;
-}
-
