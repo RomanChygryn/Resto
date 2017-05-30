@@ -41,14 +41,3 @@
 	}
 }
 
-@media (max-width: 1006px) {
-	.mainHeader {
-		@include flex-center(flex,flex-start,center);
-		.mainTitle {
-			margin-top: 15%;
-		}
-	}
-	
-}
-
- 
